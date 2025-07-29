@@ -19,8 +19,7 @@ app.use('/api/replicate', replicateRoutes);
 
 // Start Server
 const PORT = process.env.PORT || 5000;
-const HOST = process.env.APP_HOST || `http://localhost:${PORT}`;
 
 app.listen(PORT, () => {
-  console.log(`✅ Backend running at ${HOST}`);
+  console.log(`✅ Backend running at ${PORT}`);
 });
