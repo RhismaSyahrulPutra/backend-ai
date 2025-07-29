@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Env files
+.env
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: VSCode settings
+.vscode/
+
+# Optional: Build/coverage output
+dist/
+coverage/
+
+# Prettier/Eslint cache
+.prettiercache
+.eslintcache
